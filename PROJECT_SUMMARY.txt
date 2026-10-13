@@ -2,23 +2,18 @@
               COINDCX ANALYTICS — PROJECT COMPLETE ✓
 ================================================================================
 
-PROJECT STRUCTURE (GitHub-Ready)
-────────────────────────────────
+PROJECT STRUCTURE
+──────────────────
 
 coindcx-analytics/
 │
-├── .gitignore                              Don't commit: data files, logs, secrets
+├── .gitignore                             
 │
-├── README.md                               ← START HERE
+├── README.md                            
 │   └─ Full project overview
 │   └─ Business context & key insights
 │   └─ SQL techniques demonstrated
 │   └─ Interview talking points
-│
-├── QUICKSTART.md
-│   └─ Setup instructions
-│   └─ How to run reports
-│   └─ 60-second elevator pitch
 │
 ├── schema.md
 │   └─ Data dictionary (all 6 tables)
@@ -134,47 +129,19 @@ SQL TECHNIQUES DEMONSTRATED
   └─ Example: Joining trades table to itself for buyer/seller analysis
 
 ================================================================================
-INTERVIEW PREP
-================================================================================
-
-ELEVATOR PITCH (60 seconds)
-──────────────────────────
-"I built an analytics dashboard for a crypto exchange using SQL. The project 
-analyzes 1,500 users and 3,000 trades to show business metrics.
-
-Key findings: Referral users have 3x better retention than organic—which drives 
-customer lifetime value. BTCINR drives 81% of fees, creating revenue 
-concentration risk. KYC completion is the funnel bottleneck at 65%—fixing it 
-could unlock ₹462K in revenue.
-
-I used SQL window functions for conversion rates, CTEs for multi-stage 
-aggregations, and cohort analysis to track retention. Each report comes with 
-business context and recommendations."
-
-TALKING POINTS
-──────────────
-✓ SQL techniques: Window functions, CTEs, cohort analysis, conditional aggregations
-✓ Business acumen: Every metric answers a real question
-✓ Data quality: Row count validation, reconciliation checks
-✓ Communication: Each insight includes "why it matters" + recommendation
-✓ Scalability: Approach works for 10M+ rows
-
-================================================================================
 FILE CHECKLIST
 ================================================================================
 
 Ready to Download ✓
 
-□ .gitignore                 (Don't commit data/logs)
-□ README.md                  (Project overview)
-□ QUICKSTART.md              (Setup & interview prep)
-□ schema.md                  (Data dictionary)
-□ reports/01_*.sql           (4 business reports)
+□ .gitignore                
+□ README.md                  
+□ schema.md                
+□ reports/01_*.sql           
 □ insights/key_findings.md   (Recommendations)
 
 NEXT STEPS
 ──────────
-
 1. Download all files from /mnt/user-data/outputs/
 2. Copy to local: mkdir ~/coindcx-analytics && copy files
 3. Initialize git: cd ~/coindcx-analytics && git init
@@ -184,9 +151,3 @@ NEXT STEPS
 7. Share link during interviews
 
 Total project size: 72 KB (no data files)
-Time to complete: 15 minutes (setup + first commit)
-Interview readiness: 100% ✓
-
-================================================================================
-You're ready to impress hiring managers. Good luck! 🚀
-================================================================================
