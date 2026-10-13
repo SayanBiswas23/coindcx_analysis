@@ -1,2 +1,8 @@
-# .coindcx_analytics.pbix
-# test.ipynb
+*.db
+*.sqlite
+*.log
+*.pyc
+__pycache__/
+env
+.venv/
+.vscode
