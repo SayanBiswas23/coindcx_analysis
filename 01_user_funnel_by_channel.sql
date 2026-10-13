@@ -15,7 +15,7 @@
  */
 
 WITH funnel_base AS (
-    SELECT 
+    SELECT DISTINCT
         u.acquisition_channel,
         COUNT(DISTINCT u.user_id) AS signups,
         COUNT(DISTINCT CASE WHEN u.kyc_status = 'APPROVED' THEN u.user_id END) AS kyc_approved,
